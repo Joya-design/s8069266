@@ -11,7 +11,7 @@ import com.example.nit3213final.R
 import com.example.nit3213final.data.model.Entity
 
 class DashboardAdapter(
-    private var entities: MutableList<Entity>, // Change to MutableList
+    private var entities: MutableList<Entity>, 
     private val itemClick: (Entity) -> Unit
 ) : RecyclerView.Adapter<DashboardAdapter.ViewHolder>() {
 
