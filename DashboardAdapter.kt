@@ -34,7 +34,7 @@ class DashboardAdapter(
 
     override fun getItemCount(): Int = entities.size
 
-    // Method to update the list of entities
+    
     fun updateEntities(newEntities: List<Entity>) {
         entities.clear()
         entities.addAll(newEntities)
